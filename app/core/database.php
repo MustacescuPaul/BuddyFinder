@@ -1,4 +1,9 @@
 <?php
+session_start();
+error_reporting(0);
+
+
+
 $DB_HOST = 'localhost';
 $DB_USER = 'root';
 $DB_PASS = '';
@@ -11,4 +16,13 @@ try{
 catch(PDOException $e){
 	echo $e->getMessage();
 }
+
+
+// Requiring the functions
+require_once('core-functions.php');
+// Requiring the classes
+require_once('classes.php');
+// Requiring the initiator 
+require_once('init.php');
+
 

@@ -25,9 +25,6 @@ hr{
     color: #fff;
 }
 
-.form-group{
-    margin-bottom: 15px;
-}
 
 label{
     margin-bottom: 15px;
@@ -37,6 +34,9 @@ input,
 input::-webkit-input-placeholder {
     font-size: 11px;
     padding-top: 3px;
+}
+.form-group{
+    margin-bottom: 15px;
 }
 
 .main-login{
@@ -229,6 +229,28 @@ p.copyright {
     font-size: 23px!important;
 }
 /* Navbar */
+
+.navbar-right{
+    padding-right: 35px;
+}
+.button-create-event{
+    border: 0px;
+    float: left;
+    outline: 0px;
+    transition: all .1s ease;
+    transition-property: background;
+    padding: 16px 19px;
+    color: #fff;
+    background-color: #31708f;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    display: block;
+}
+.button-create-event:hover{
+    background-color: #4a8eaf;
+
+}
 nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
 nav.navbar-findcond a { color: #31708f; }
 nav.navbar-findcond ul.navbar-nav a { color: #31708f; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }

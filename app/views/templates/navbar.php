@@ -1,18 +1,17 @@
 
     <!-- Navigation -->
  <nav class="navbar navbar-findcond navbar-fixed-top">
-    <div class="container">
+
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><i class="fa fa-globe" aria-hidden="true"></i> BuddyFinder</p></a>
+
+			<a class="navbar-brand" href="#" onclick="window.location.reload(true);"><i class="fa fa-globe" aria-hidden="true"></i> BuddyFinder</p></a>
+			<form class="navbar-form navbar-right search-form" role="search">
+				<input type="text" class="form-control" placeholder="Search" />
+			</form>
 		</div>
 		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="nav navbar-nav navbar-right">
+				<button class="button-create-event"><i class="fa fa-plus"></i> Create your own event</button>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-fw fa-bell-o"></i> Notifications <span class="badge">4</span></a>
 					<ul class="dropdown-menu" role="menu">
@@ -33,9 +32,7 @@
 					</ul>
 				</li>
 			</ul>
-			<form class="navbar-form navbar-right search-form" role="search">
-				<input type="text" class="form-control" placeholder="Search" />
-			</form>
+			
 		</div>
-	</div>
+
 </nav>
